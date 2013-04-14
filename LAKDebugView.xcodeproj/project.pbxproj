@@ -1,0 +1,389 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B384381E171AEA2700267BBE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B384381D171AEA2700267BBE /* UIKit.framework */; };
+		B3843820171AEA2700267BBE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B384381F171AEA2700267BBE /* Foundation.framework */; };
+		B3843822171AEA2700267BBE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3843821171AEA2700267BBE /* CoreGraphics.framework */; };
+		B3843828171AEA2700267BBE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B3843826171AEA2700267BBE /* InfoPlist.strings */; };
+		B384382A171AEA2700267BBE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B3843829171AEA2700267BBE /* main.m */; };
+		B384382E171AEA2700267BBE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B384382D171AEA2700267BBE /* AppDelegate.m */; };
+		B3843830171AEA2700267BBE /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B384382F171AEA2700267BBE /* Default.png */; };
+		B3843832171AEA2700267BBE /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B3843831171AEA2700267BBE /* Default@2x.png */; };
+		B3843834171AEA2700267BBE /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B3843833171AEA2700267BBE /* Default-568h@2x.png */; };
+		B3843837171AEA2700267BBE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3843836171AEA2700267BBE /* ViewController.m */; };
+		B384383A171AEA2700267BBE /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3843838171AEA2700267BBE /* ViewController_iPhone.xib */; };
+		B384383D171AEA2700267BBE /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = B384383B171AEA2700267BBE /* ViewController_iPad.xib */; };
+		B384386D171AFF2500267BBE /* LAKDebugUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = B3843860171AFF2500267BBE /* LAKDebugUtils.m */; };
+		B384386E171AFF2500267BBE /* LAKApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = B3843863171AFF2500267BBE /* LAKApplication.m */; };
+		B384386F171AFF2500267BBE /* LAKLogView.m in Sources */ = {isa = PBXBuildFile; fileRef = B3843865171AFF2500267BBE /* LAKLogView.m */; };
+		B3843870171AFF2500267BBE /* LAKLogViewHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = B3843867171AFF2500267BBE /* LAKLogViewHandler.m */; };
+		B3843871171AFF2500267BBE /* LAKCGUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = B384386A171AFF2500267BBE /* LAKCGUtils.m */; };
+		B3843872171AFF2500267BBE /* LAKMovableView.m in Sources */ = {isa = PBXBuildFile; fileRef = B384386C171AFF2500267BBE /* LAKMovableView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B384381A171AEA2700267BBE /* LAKDebugView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LAKDebugView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B384381D171AEA2700267BBE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B384381F171AEA2700267BBE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B3843821171AEA2700267BBE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B3843825171AEA2700267BBE /* LAKDebugView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LAKDebugView-Info.plist"; sourceTree = "<group>"; };
+		B3843827171AEA2700267BBE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B3843829171AEA2700267BBE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B384382B171AEA2700267BBE /* LAKDebugView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LAKDebugView-Prefix.pch"; sourceTree = "<group>"; };
+		B384382C171AEA2700267BBE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B384382D171AEA2700267BBE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B384382F171AEA2700267BBE /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		B3843831171AEA2700267BBE /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		B3843833171AEA2700267BBE /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		B3843835171AEA2700267BBE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B3843836171AEA2700267BBE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B3843839171AEA2700267BBE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		B384383C171AEA2700267BBE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		B384385E171AFF2500267BBE /* LAKDebug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LAKDebug.h; sourceTree = "<group>"; };
+		B384385F171AFF2500267BBE /* LAKDebugUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LAKDebugUtils.h; sourceTree = "<group>"; };
+		B3843860171AFF2500267BBE /* LAKDebugUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LAKDebugUtils.m; sourceTree = "<group>"; };
+		B3843862171AFF2500267BBE /* LAKApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LAKApplication.h; sourceTree = "<group>"; };
+		B3843863171AFF2500267BBE /* LAKApplication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LAKApplication.m; sourceTree = "<group>"; };
+		B3843864171AFF2500267BBE /* LAKLogView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LAKLogView.h; sourceTree = "<group>"; };
+		B3843865171AFF2500267BBE /* LAKLogView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LAKLogView.m; sourceTree = "<group>"; };
+		B3843866171AFF2500267BBE /* LAKLogViewHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LAKLogViewHandler.h; sourceTree = "<group>"; };
+		B3843867171AFF2500267BBE /* LAKLogViewHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LAKLogViewHandler.m; sourceTree = "<group>"; };
+		B3843869171AFF2500267BBE /* LAKCGUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LAKCGUtils.h; sourceTree = "<group>"; };
+		B384386A171AFF2500267BBE /* LAKCGUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LAKCGUtils.m; sourceTree = "<group>"; };
+		B384386B171AFF2500267BBE /* LAKMovableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LAKMovableView.h; sourceTree = "<group>"; };
+		B384386C171AFF2500267BBE /* LAKMovableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LAKMovableView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B3843817171AEA2700267BBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B384381E171AEA2700267BBE /* UIKit.framework in Frameworks */,
+				B3843820171AEA2700267BBE /* Foundation.framework in Frameworks */,
+				B3843822171AEA2700267BBE /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B3843811171AEA2700267BBE = {
+			isa = PBXGroup;
+			children = (
+				B3843823171AEA2700267BBE /* LAKDebugView */,
+				B384381C171AEA2700267BBE /* Frameworks */,
+				B384381B171AEA2700267BBE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B384381B171AEA2700267BBE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B384381A171AEA2700267BBE /* LAKDebugView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B384381C171AEA2700267BBE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B384381D171AEA2700267BBE /* UIKit.framework */,
+				B384381F171AEA2700267BBE /* Foundation.framework */,
+				B3843821171AEA2700267BBE /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B3843823171AEA2700267BBE /* LAKDebugView */ = {
+			isa = PBXGroup;
+			children = (
+				B384385C171AFF2500267BBE /* LAK */,
+				B384382C171AEA2700267BBE /* AppDelegate.h */,
+				B384382D171AEA2700267BBE /* AppDelegate.m */,
+				B3843835171AEA2700267BBE /* ViewController.h */,
+				B3843836171AEA2700267BBE /* ViewController.m */,
+				B3843838171AEA2700267BBE /* ViewController_iPhone.xib */,
+				B384383B171AEA2700267BBE /* ViewController_iPad.xib */,
+				B3843824171AEA2700267BBE /* Supporting Files */,
+			);
+			path = LAKDebugView;
+			sourceTree = "<group>";
+		};
+		B3843824171AEA2700267BBE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B3843825171AEA2700267BBE /* LAKDebugView-Info.plist */,
+				B3843826171AEA2700267BBE /* InfoPlist.strings */,
+				B3843829171AEA2700267BBE /* main.m */,
+				B384382B171AEA2700267BBE /* LAKDebugView-Prefix.pch */,
+				B384382F171AEA2700267BBE /* Default.png */,
+				B3843831171AEA2700267BBE /* Default@2x.png */,
+				B3843833171AEA2700267BBE /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B384385C171AFF2500267BBE /* LAK */ = {
+			isa = PBXGroup;
+			children = (
+				B384385D171AFF2500267BBE /* LAKDebug */,
+				B3843861171AFF2500267BBE /* LAKDebugView */,
+				B3843868171AFF2500267BBE /* LAKMovableView */,
+			);
+			path = LAK;
+			sourceTree = "<group>";
+		};
+		B384385D171AFF2500267BBE /* LAKDebug */ = {
+			isa = PBXGroup;
+			children = (
+				B384385E171AFF2500267BBE /* LAKDebug.h */,
+				B384385F171AFF2500267BBE /* LAKDebugUtils.h */,
+				B3843860171AFF2500267BBE /* LAKDebugUtils.m */,
+			);
+			path = LAKDebug;
+			sourceTree = "<group>";
+		};
+		B3843861171AFF2500267BBE /* LAKDebugView */ = {
+			isa = PBXGroup;
+			children = (
+				B3843862171AFF2500267BBE /* LAKApplication.h */,
+				B3843863171AFF2500267BBE /* LAKApplication.m */,
+				B3843864171AFF2500267BBE /* LAKLogView.h */,
+				B3843865171AFF2500267BBE /* LAKLogView.m */,
+				B3843866171AFF2500267BBE /* LAKLogViewHandler.h */,
+				B3843867171AFF2500267BBE /* LAKLogViewHandler.m */,
+			);
+			path = LAKDebugView;
+			sourceTree = "<group>";
+		};
+		B3843868171AFF2500267BBE /* LAKMovableView */ = {
+			isa = PBXGroup;
+			children = (
+				B3843869171AFF2500267BBE /* LAKCGUtils.h */,
+				B384386A171AFF2500267BBE /* LAKCGUtils.m */,
+				B384386B171AFF2500267BBE /* LAKMovableView.h */,
+				B384386C171AFF2500267BBE /* LAKMovableView.m */,
+			);
+			path = LAKMovableView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B3843819171AEA2700267BBE /* LAKDebugView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3843840171AEA2700267BBE /* Build configuration list for PBXNativeTarget "LAKDebugView" */;
+			buildPhases = (
+				B3843816171AEA2700267BBE /* Sources */,
+				B3843817171AEA2700267BBE /* Frameworks */,
+				B3843818171AEA2700267BBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LAKDebugView;
+			productName = LAKDebugView;
+			productReference = B384381A171AEA2700267BBE /* LAKDebugView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B3843812171AEA2700267BBE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Leonard Ah Kun";
+			};
+			buildConfigurationList = B3843815171AEA2700267BBE /* Build configuration list for PBXProject "LAKDebugView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B3843811171AEA2700267BBE;
+			productRefGroup = B384381B171AEA2700267BBE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B3843819171AEA2700267BBE /* LAKDebugView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B3843818171AEA2700267BBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3843828171AEA2700267BBE /* InfoPlist.strings in Resources */,
+				B3843830171AEA2700267BBE /* Default.png in Resources */,
+				B3843832171AEA2700267BBE /* Default@2x.png in Resources */,
+				B3843834171AEA2700267BBE /* Default-568h@2x.png in Resources */,
+				B384383A171AEA2700267BBE /* ViewController_iPhone.xib in Resources */,
+				B384383D171AEA2700267BBE /* ViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B3843816171AEA2700267BBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B384382A171AEA2700267BBE /* main.m in Sources */,
+				B384382E171AEA2700267BBE /* AppDelegate.m in Sources */,
+				B3843837171AEA2700267BBE /* ViewController.m in Sources */,
+				B384386D171AFF2500267BBE /* LAKDebugUtils.m in Sources */,
+				B384386E171AFF2500267BBE /* LAKApplication.m in Sources */,
+				B384386F171AFF2500267BBE /* LAKLogView.m in Sources */,
+				B3843870171AFF2500267BBE /* LAKLogViewHandler.m in Sources */,
+				B3843871171AFF2500267BBE /* LAKCGUtils.m in Sources */,
+				B3843872171AFF2500267BBE /* LAKMovableView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B3843826171AEA2700267BBE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3843827171AEA2700267BBE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B3843838171AEA2700267BBE /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3843839171AEA2700267BBE /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		B384383B171AEA2700267BBE /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B384383C171AEA2700267BBE /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B384383E171AEA2700267BBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B384383F171AEA2700267BBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B3843841171AEA2700267BBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LAKDebugView/LAKDebugView-Prefix.pch";
+				INFOPLIST_FILE = "LAKDebugView/LAKDebugView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B3843842171AEA2700267BBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LAKDebugView/LAKDebugView-Prefix.pch";
+				INFOPLIST_FILE = "LAKDebugView/LAKDebugView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B3843815171AEA2700267BBE /* Build configuration list for PBXProject "LAKDebugView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B384383E171AEA2700267BBE /* Debug */,
+				B384383F171AEA2700267BBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3843840171AEA2700267BBE /* Build configuration list for PBXNativeTarget "LAKDebugView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3843841171AEA2700267BBE /* Debug */,
+				B3843842171AEA2700267BBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B3843812171AEA2700267BBE /* Project object */;
+}
